@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora nutricional</title>
+</head>
+<body>
+    <section class="cabecalho">
+            <nav class="menu-lateral menu-sumido">
+                <div class="btn-menu">
+                    <img src="icones/menu.svg" id="btn-menu-lateral" alt="ícone menu">
+                </div>
+                    <ul class="categorias categorias-sumir">
+                        <li class="item-menu">
+                            <a href="#">
+                                <span class="icone">
+                                    <img src="icones/inicio.svg" alt="ícone de início">
+                                </span>
+                                <span txt-link>Início</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="#">
+                                <span class="icone">
+                                    <img src="icones/idioma (2).svg">
+                                </span>
+                                <span txt-link>Idioma</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="#">
+                                <span class="icone">
+                                    <img src="icones/conta.svg">
+                                </span>
+                                <span txt-link>Conta</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="#">
+                                <span class="icone">
+                                    <img src="icones/configurações.svg">
+                                </span>
+                                <span txt-link>Configurações</span>
+                            </a>
+                        </li>
+                        <li class="item-menu">
+                            <a href="#">
+                                <span class="icone">
+                                    <img src="icones/ajuda.svg">
+                                </span>
+                                <span txt-link>Ajuda</span>
+                            </a>
+                        </li>
+                    </ul>
+            </nav>   
+    </section>
+
+    <section class="titulo-calculadora">
+        <h1 class="titulo">Calculadora nutricional</h1>
+        <a href="#" class="icone-fonte">
+            <img src="icones/icone fonte.svg">
+        </a>
+    </section>
+
+    <section class="buscar">
+        <h1 class="buscar-titulo">RESTAURANTES PRÓXIMOS</h1>
+        <input type="text" class="buscar-loc">
+        <div class="info-busca">
+            <img src="icones/seta curvada.svg" alt="Seta curvada">
+            <p class="info-loc">procure com base na localização</p>
+        </div>
+    </section>
+
+    <section class="carrossel">
+        <h1 class="carrossel-titulo">MELHORES RESTAURANTES</h1>
+        <div class="slides">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img class="img-carrossel" src="IMG/imagem carrossel.svg">
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="img-carrossel" src="IMG/imagem carrossel.svg">
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="img-carrossel" src="IMG/imagem carrossel.svg">
+                      </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+    </section>
+
+    <section class="comida-opcao">
+        <div class="comidinhas">
+            <img src="icones/pizza.svg" alt="Pizza">
+            <p>Pizza</p>
+        </div>
+        <div class="comidinhas">
+            <img src="icones/maça.svg" alt="Comida saudável">
+            <p>Health</p>
+        </div>
+        <div class="comidinhas">
+            <img src="icones/sanduiche.svg" alt="Hamburguers">
+            <p>Burgers</p>
+        </div>
+        <div class="comidinhas">
+            <img src="icones/desert.svg" alt="Sobremesa">
+            <p>Deserts</p>
+        </div>
+        <div class="comidinhas">
+            <img src="icones/all.svg" alt="Tudo">
+            <p>All</p>
+        </div>
+    </section>
+
+    <section class="restaurantes">
+        <div class="restaurante-container">
+            <div class="restaurantes-img">
+                <img src="IMG/angelina.svg" alt="Restaurante da Angelina">
+            </div>
+            <div class="restaurante-informacao">
+                <h1>Angelina's</h1>
+                <p>4,7</p>
+                <p>Relit eos debitis illo ut vel. quasi similiqueaque</p>
+                <p class="img-vetor">
+                    <img src="icones/Vector (8).svg" alt="Icone localização">
+                    Elody Island
+                </p>
+            </div>
+        </div>
+        <div class="restaurante-container segundo-restaurante">
+            <div class="restaurantes-img">
+                <img src="IMG/gois.svg" alt="Restaurante Gois">
+            </div>
+            <div class="restaurante-informacao">
+                <h1>Gois</h1>
+                <p>4,7</p>
+                <p>Relit eos debitis illo ut vel. quasi similiqueaque</p>
+                <div class="img-vetor">
+                    <img src="icones/Vector (8).svg" alt="Icone localização">
+                    <p>Elody Island</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="final-categorias">
+        <div class="final">
+            <img src="icones/home.svg" alt="Home">
+            <p>Início</p>
+        </div>
+        <div class="final">
+            <img src="icones/Vector (9).svg" alt="Favoritos">
+            <p>Favoritos</p>
+        </div>
+        <div class="final">
+            <img src="icones/magnifyingglass.svg" alt="Procurar">
+            <p>Procurar</p>
+        </div>
+        <div class="final">
+            <img src="icones/calculator.svg" alt="Calculadora">
+            <p>Calculadora</p>
+        </div>
+<script src="script.js"></script>
+
+ <!-- Swiper JS -->
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1.2,
+      spaceBetween: 40,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+  </script>
+ </script>
+</body>
+</html>
